@@ -1,0 +1,60 @@
+.banner-inferior{
+    width: 70%;
+    
+    .texto1{
+        font-size: 46px;
+        font-style: italic;
+        padding-left: 98px;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    .texto2{
+        font-size: 24px;
+        padding-left: 98px;
+        margin-top: 5px;
+        padding-top: 5px;
+        box-sizing: border-box;
+    }
+    .modelos-carros{
+        display: flex;
+        padding-top: 30px;
+        padding-left: 98px;
+        width: 100%;
+        justify-content: flex-start;
+        box-sizing: border-box;
+    }
+    .lancamentos-honda{
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+ 
+@media (max-width: 767px) {	
+	.banner-inferior{
+        width: 100% !important;
+    }
+    .texto1, .texto2{
+        padding: 10px !important;
+    }
+    .lancamentos-honda{
+        text-align: center;
+    }
+    .banner-inferior .modelos-carros{
+        flex-direction: column;
+        padding: 0 !important;
+       
+    }
+
+    .meu_carro{
+        width: 80% !important;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        .texto_card_3{
+            font-size: 20px;
+        }
+    }
+  }

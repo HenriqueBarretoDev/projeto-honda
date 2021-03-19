@@ -1,0 +1,144 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    height:228px;
+    padding-top: 20px;
+
+    .encontre_uma {
+    
+        display: flex;
+        flex-direction: row;
+        background-color: #EEEEEE;
+        justify-content: center;
+        height: 100%;
+        
+        .box{
+            border-radius: 5px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .barra-inferior{
+            border: 1px solid #DF0209;
+           
+            width: 270px;
+            height: 80px;
+            display: flex;
+            flex-direction: row;
+            margin: 10px;  
+            .icone{
+                padding: 0 10px;
+            }
+            .icone, .textos{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                color: #000000;
+                font-size: 14px;
+                color: #DF0209;
+            }
+            .textos{
+                p{
+                    color:#727B7A;
+                }
+                h5{
+                    color: #DF0209;
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .central{
+            .cda{
+                color:#727B7A;
+                font-size: 14px;
+            }
+            .tel{
+                font-size: 24px;
+                color: #DF0209;
+            }
+        }
+
+        
+
+        .central{
+            border: 1px solid #DF0209;
+            border-radius: 5px;
+            width: 270px;
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            margin: 10px; 
+            text-align: center;
+            color: #DF0209;
+            font-size: 16px; 
+            align-items: center;
+            
+        }
+
+    }
+    
+    .siga{
+        display: flex;
+        height: 80px;
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+        font-size: 24px;
+        font-style: italic;
+        .icones{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .inferior{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .logo01 {
+            width: 110px;
+            height: 28px;
+        }
+        .logo02{
+            width: 46px;
+            height: 52px;
+            margin: 30px;
+        }
+        .texto{
+            font-size: 12px;
+            color: #707070;
+            text-align: left;
+        }
+    }
+    .instagram{
+    
+        padding: 5px;
+        /* width: 20px; */
+        height: 55px;
+        padding-top: 5px;
+        width: 55px;
+        
+    }
+    .facebook, .twitch{
+        border: 2px solid #C5C5C5;
+        margin: 2px;
+        padding: 5px;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        background-color: #C5C5C5;
+    }
+    .logo_gps{
+        
+        margin: 2px;
+        padding: 5px;
+        width: 27px;
+        height: 40px;
+        
+    }
+}

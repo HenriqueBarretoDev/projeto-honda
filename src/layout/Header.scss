@@ -1,0 +1,44 @@
+.submenu-da-esquerda{   
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 114px;
+    padding-left:  114px;
+    box-sizing:border-box;
+    padding-top: 20px;   
+}
+ .logo{
+    width:200px;
+    height: 51px;
+ }
+ .submenu-da-direita{
+     display: flex;
+     flex-direction: column;
+     flex: 1;
+     align-items: flex-end;    
+ }
+ .telefone{
+     color:#DF0209 ;
+     font-size: 26px;
+     letter-spacing: 1.7px;
+     font-style: italic;
+ } 
+ .descricao{
+     font-size: 16px;
+     letter-spacing: -0,6px;    
+     font-style: italic;
+ }  
+
+ @media (max-width: 767px) {	
+    .submenu-da-esquerda{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .submenu-da-direita{
+        align-items: unset;
+        margin-top: 30px;
+    }
+  }

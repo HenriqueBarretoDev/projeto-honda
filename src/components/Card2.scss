@@ -1,0 +1,46 @@
+.meu_carro{
+    border: 0.7px solid #EEEEEE;
+    margin: 20px;
+    width: 33.33%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+ 
+    p {
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        margin-right: 25px;
+        font-size: 14px;
+        margin-top: 30px;   
+    }
+
+    .texto_card_3{
+        text-align: center;
+        font-size: 14px;
+        align-items: center;
+        margin: 5px;
+    }
+    img{
+        align-items: end;
+        display: flex;
+        padding-left: 30px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .conheca{
+        text-decoration:none;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius:5px;
+        border: 1px solid #cccccc;
+        display: block;
+        padding: 10px;
+        font-size: 13px;
+        color:#000000;   
+    }
+}
