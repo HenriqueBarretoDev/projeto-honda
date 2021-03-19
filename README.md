@@ -1,4 +1,4 @@
-# Projeto criado para teste de frontend
+## Projeto criado para teste de frontend utilizando React
 
 ## Instalação
 npm install
