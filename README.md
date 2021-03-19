@@ -15,5 +15,5 @@ npm start
 ![alt text](https://github.com/HenriqueBarretoDev/projeto-honda/blob/master/desktop3.jpg)
 
 # MOBILE
-![alt text](https://github.com/HenriqueBarretoDev/projeto-honda/blob/master/mobile.jpg)
+![alt text](https://github.com/HenriqueBarretoDev/projeto-honda/blob/master/mobile.png)
 
